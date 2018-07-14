@@ -98,7 +98,7 @@ namespace WBrowser
             key.SetValue("$safeprojectname$.exe", "10001");
             key.Close();*/
 
-            WinInetInterop.SetConnectionProxy("81.214.55.30:4578");
+            WinInetInterop.SetConnectionProxy("");
             this.toolStripStatusLabel1.Text = "Done";
             comboBox1.SelectedItem = comboBox1.Items[0];
             setVisibility();
