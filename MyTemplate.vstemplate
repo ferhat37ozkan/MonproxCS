@@ -1,0 +1,71 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Son</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Son</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Sigidea.csproj" File="Sigidea.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="About.cs">About.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="About.Designer.cs">About.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="About.resx">About.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AddFavorites.cs">AddFavorites.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AddFavorites.Designer.cs">AddFavorites.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="AddFavorites.resx">AddFavorites.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="app.config">app.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Calendar.cs">Calendar.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Calendar.Designer.cs">Calendar.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Calendar.resx">Calendar.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Close.cs">Close.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Close.Designer.cs">Close.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Close.resx">Close.resx</ProjectItem>
+      <Folder Name="data" TargetFolderName="data">
+        <ProjectItem ReplaceParameters="true" TargetFileName="favorits.xml">favorits.xml</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DeleteBrowsingHistory.cs">DeleteBrowsingHistory.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DeleteBrowsingHistory.Designer.cs">DeleteBrowsingHistory.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DeleteBrowsingHistory.resx">DeleteBrowsingHistory.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Giris.cs">Giris.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Giris.Designer.cs">Giris.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Giris.resx">Giris.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="InternetOption.cs">InternetOption.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="InternetOption.Designer.cs">InternetOption.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="InternetOption.resx">InternetOption.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MetroFramework.txt">MetroFramework.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Open.cs">Open.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Open.Designer.cs">Open.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Open.resx">Open.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OrganizeFavorites.cs">OrganizeFavorites.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OrganizeFavorites.Designer.cs">OrganizeFavorites.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="OrganizeFavorites.resx">OrganizeFavorites.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="licenses.licx">licenses.licx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="RenameLink.cs">RenameLink.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="RenameLink.Designer.cs">RenameLink.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="RenameLink.resx">RenameLink.resx</ProjectItem>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="giris.png">giris.png</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="SetProxy.cs">SetProxy.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="WBrowser.cs">WBrowser.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="WBrowser.Designer.cs">WBrowser.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="WBrowser.resx">WBrowser.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="WBrowser_TemporaryKey.pfx">WBrowser_TemporaryKey.pfx</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
